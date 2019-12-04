@@ -1,5 +1,5 @@
 require_relative '../config/environment'
+require_relative '../app/quiz_app'
 
-
-
-puts "HELLO WORLD"
+app = QuizApp.new
+app.run
